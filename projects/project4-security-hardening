@@ -1,0 +1,109 @@
+# Project 4 — Security Hardening
+
+**Status:** ⏳ Coming soon  
+**Estimated AWS cost:** $0 (free tier)  
+**Time to build:** ~2 hours  
+
+---
+
+## Business Problem
+
+A misconfigured AWS account is one of the most common causes of data breaches and unexpected costs. S3 buckets left public, root accounts without MFA, and unused access keys are found in real customer environments every day. This project documents a systematic security review and hardening of an AWS account — the same process a TAM or SA would walk a customer through.
+
+---
+
+## Services Used
+
+| Service | Purpose |
+|---------|---------|
+| IAM | User, role, and policy configuration — least privilege |
+| CloudTrail | Audit logging — every API call recorded |
+| AWS Config | Continuous compliance monitoring against security rules |
+| Security Hub | Aggregated security findings across services |
+| IAM Credential Report | Snapshot of all users, key ages, and MFA status |
+
+---
+
+## Security Checks Performed
+
+### IAM
+- [ ] Root account MFA enabled
+- [ ] No root access keys exist
+- [ ] Password policy enforced (length, complexity, rotation)
+- [ ] All IAM users have MFA enabled
+- [ ] No users with unused access keys older than 90 days
+- [ ] IAM credential report generated and reviewed
+
+### CloudTrail
+- [ ] Trail enabled in us-east-1
+- [ ] Logs delivered to S3 bucket
+- [ ] Log file validation enabled
+
+### AWS Config
+- [ ] Config enabled and recording
+- [ ] Core managed rules enabled (list below)
+- [ ] Non-compliant findings documented
+- [ ] Remediation applied and re-evaluated
+
+### Config Rules Enabled
+| Rule | What it checks |
+|------|---------------|
+| `root-account-mfa-enabled` | Root account has MFA |
+| `iam-password-policy` | Password policy meets requirements |
+| `s3-bucket-public-read-prohibited` | No S3 buckets are publicly readable |
+| `cloudtrail-enabled` | CloudTrail is active |
+| `access-keys-rotated` | Access keys rotated within 90 days |
+
+---
+
+## Before and After
+
+| Finding | Before | After |
+|---------|--------|-------|
+| Root MFA | *(document your finding)* | *(document remediation)* |
+| Password policy | *(document your finding)* | *(document remediation)* |
+| S3 public access | *(document your finding)* | *(document remediation)* |
+
+---
+
+## Remediation Runbook
+
+*(step-by-step instructions for fixing each finding — written so a junior team member could follow them)*
+
+---
+
+## Screenshots
+
+*(to be added during build)*
+
+---
+
+## SAA-C03 Exam Topics This Covers
+
+- IAM best practices and least privilege
+- CloudTrail configuration and log integrity
+- AWS Config rules and compliance monitoring
+- Security Hub findings and standards
+- Shared responsibility model
+
+---
+
+## What I Learned
+
+*(to be filled in after completing the project)*
+
+---
+
+## What I Would Improve
+
+*(to be filled in after completing the project)*
+
+---
+
+## Tear-Down Checklist
+
+- [ ] AWS Config recording stopped (charges after free tier)
+- [ ] Config rules deleted
+- [ ] CloudTrail trail deleted
+- [ ] S3 bucket for CloudTrail logs emptied and deleted
+- [ ] Confirmed $0 bill in Cost Explorer
