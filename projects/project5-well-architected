@@ -1,0 +1,107 @@
+# Project 5 — Well-Architected Review
+
+**Status:** ⏳ Coming soon  
+**Estimated AWS cost:** $0 (free tier — tool only)  
+**Time to complete:** ~2 hours  
+
+---
+
+## Business Problem
+
+Building something that works is not the same as building something that is reliable, secure, cost-efficient, and operationally sound. The AWS Well-Architected Framework gives architects and account managers a structured way to evaluate any workload against proven best practices — and identify the highest-priority improvements.
+
+This project applies the Well-Architected Framework to the URL shortener built in Project 1, producing a formal review report exactly as an SA would deliver to a customer.
+
+---
+
+## Workload Reviewed
+
+**Project 1 — Serverless URL Shortener**  
+Services: API Gateway, Lambda, DynamoDB, IAM, CloudWatch
+
+---
+
+## The 6 Pillars
+
+| Pillar | What it evaluates |
+|--------|------------------|
+| Operational Excellence | How well can you run, monitor, and improve the workload? |
+| Security | How well are you protecting data, systems, and assets? |
+| Reliability | Can the workload recover from failures and meet demand? |
+| Performance Efficiency | Are you using resources efficiently as requirements change? |
+| Cost Optimization | Are you avoiding unnecessary costs? |
+| Sustainability | Are you minimizing environmental impact? |
+
+---
+
+## Findings Summary
+
+*(to be completed after running the Well-Architected Tool)*
+
+| Pillar | High Risks | Medium Risks | Notes |
+|--------|-----------|--------------|-------|
+| Operational Excellence | | | |
+| Security | | | |
+| Reliability | | | |
+| Performance Efficiency | | | |
+| Cost Optimization | | | |
+| Sustainability | | | |
+
+---
+
+## Detailed Findings
+
+### Operational Excellence
+*(document findings and recommendations)*
+
+### Security
+*(document findings and recommendations)*
+
+### Reliability
+*(document findings and recommendations)*
+
+### Performance Efficiency
+*(document findings and recommendations)*
+
+### Cost Optimization
+*(document findings and recommendations)*
+
+### Sustainability
+*(document findings and recommendations)*
+
+---
+
+## Improvement Roadmap
+
+| Priority | Finding | Recommended Fix | Effort |
+|----------|---------|----------------|--------|
+| High | *(finding)* | *(fix)* | *(low/med/high)* |
+| Medium | *(finding)* | *(fix)* | *(low/med/high)* |
+
+---
+
+## Screenshots
+
+*(to be added during review)*
+
+---
+
+## SAA-C03 Exam Topics This Covers
+
+- All 6 pillars of the Well-Architected Framework
+- Design trade-offs between pillars
+- Serverless architecture best practices
+- Reliability and fault tolerance patterns
+- Cost optimization strategies
+
+---
+
+## What I Learned
+
+*(to be filled in after completing the project)*
+
+---
+
+## What I Would Improve
+
+*(to be filled in after completing the project)*
