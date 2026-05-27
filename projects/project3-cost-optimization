@@ -1,0 +1,74 @@
+# Project 3 — Cost Optimization Report
+
+**Status:** ⏳ Coming soon  
+**Estimated AWS cost:** $0 (free tier — analysis only)  
+**Time to complete:** ~2 hours  
+
+---
+
+## Business Problem
+
+Cloud costs are one of the top concerns for every AWS customer. Without active management, bills grow through idle resources, over-provisioned instances, and unused services. A Solutions Architect and Technical Account Manager both need to identify waste, quantify savings, and present recommendations in business terms — not just technical ones.
+
+This project simulates a real cost review engagement, producing a written report with findings and recommendations as if presenting to a business stakeholder.
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| AWS Budgets | Set spending thresholds and email alerts |
+| Cost Explorer | Visualize spending by service, region, and time period |
+| Trusted Advisor | Automated recommendations across cost, security, and performance |
+| CloudTrail | Audit log — who did what and when |
+
+---
+
+## Report Structure
+
+### 1. Executive Summary
+*(one paragraph — what was reviewed, what was found, what the recommendation is)*
+
+### 2. Current Spend Analysis
+*(Cost Explorer screenshots and observations)*
+
+### 3. Trusted Advisor Findings
+*(list each finding, its severity, and the recommended action)*
+
+### 4. Budget and Alert Configuration
+*(screenshot of configured budget and alert thresholds)*
+
+### 5. Recommendations
+*(prioritized list with estimated savings or risk reduction for each)*
+
+### 6. Conclusion
+*(what was implemented, what remains as future work)*
+
+---
+
+## Screenshots
+
+*(to be added during build)*
+
+---
+
+## SAA-C03 Exam Topics This Covers
+
+- AWS pricing models and cost optimization strategies
+- Trusted Advisor checks and their categories
+- Cost Explorer usage and filtering
+- Budget alerts and cost controls
+- Tagging strategies for cost allocation
+
+---
+
+## What I Learned
+
+*(to be filled in after completing the project)*
+
+---
+
+## What I Would Improve
+
+*(to be filled in after completing the project)*
